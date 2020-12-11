@@ -1,0 +1,14 @@
+
+.eq_copy_clip_link { /* small visual improvement */
+    margin-right:10px;
+}
+
+.eq_copy_clip_link .copy_clip { /* small visual improvement */
+    /*opacity: 0.3;*/
+    color: #dddddd;
+}
+
+.eq_copy_clip_link:hover .copy_clip { /* small visual improvement */
+    /*opacity: 1;*/
+    color: initial;
+}

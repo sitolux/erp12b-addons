@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="eq_es_assets_backend" name="eq_copy_clipboard_template" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/eq_copy_clipboard/static/src/js/set_clipboard.js"/>
+                <script type="text/javascript" src="/eq_copy_clipboard/static/src/js/copy_clipboard.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>
